@@ -14,25 +14,45 @@
 </head>
 
 <body>
-    <header class="container mt-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img class="img-fluid" src="./images/icon/Logo.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Home <span class="sr-only"></span></a>
-                    <a class="nav-link" href="#">Products</a>
-                    <a class="nav-link" href="#">About us</a>
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+    <!-- Header Section -->
+    <header class="container g-4 bg-light">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid justify-content-between">
+                    <a class="navbar-brand" href="#"><img src="./images/icon/Logo.png" alt="" class="img-fluid"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contact us
+                                </a>
+                                <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul> -->
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
 
+        </section>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -55,66 +75,63 @@
                 </div>
             </div>
         </div>
-        <!-- Ended Carousel -->
+    <!-- Ended Carousel -->
     </header>
-    <!-- Navbar Ended -->
+    <!-- Header Ended -->
 
-    <!-- Section for Main Started and Card Section -->
-    <main>
-        <section class="container mt-5">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-3 shadow" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img class="img-fluid" src="./images/icon/card-icon1.png" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Find the Perfect Fit</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
+    <!--  Card Section -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3 shadow" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="./images/icon/card-icon1.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Find the Perfect Fit</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 shadow" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img class="img-fluid" src="./images/icon/card-icon2.png" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Free Exchanges</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card mb-3 shadow" style="max-width: 540px;">
-                        <div class="row g-0">
-                            <div class="col-md-4">
-                                <img class="img-fluid" src="./images/icon/card-icon3.png" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Contact Our Seller</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-                <div class="col-md-6">
-                    <img src="./images/icon/XMLID.png" class="img-fluid" alt="">
+                <div class="card mb-3 shadow" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="./images/icon/card-icon2.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Free Exchanges</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 shadow" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="./images/icon/card-icon3.png" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Contact Our Seller</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Casual Bag Item -->
+            <div class="col-md-6">
+                <img src="./images/icon/XMLID.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <main>
         <section class="container m-5">
             <h2>CASUAL BACKPACKS</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -231,9 +248,11 @@
         </section>
 
     </main>
+    <!-- Casual Bag Item -->
+
 
     <!-- footer  -->
-    <footer>
+    <footer class="container mt-5">
         <p class="d-flex justify-content-center">&copy;2022 Developed By Zakariyya, All Right Reserved</p>
     </footer>
 
