@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Multazim BD</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/boostrap/style.css">
 
 </head>
 
 <body>
-    <header class="container">
+    <header class="container mt-5">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="./images/icon/Logo.png" alt="">
@@ -23,9 +26,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" href="#">Home <span class="sr-only"></span></a>
-                    <a class="nav-link" href="#">Shoes</a>
-                    <a class="nav-link" href="#">Backpack</a>
-                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
                 </div>
             </div>
         </nav>
@@ -58,10 +61,10 @@
 
     <!-- Section for Main Started and Card Section -->
     <main>
-        <section class="container">
+        <section class="container mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 shadow" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img class="img-fluid" src="./images/icon/card-icon1.png" alt="...">
@@ -70,13 +73,12 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Find the Perfect Fit</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                        lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 shadow" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img class="img-fluid" src="./images/icon/card-icon2.png" alt="...">
@@ -85,13 +87,12 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Free Exchanges</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                        lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3" style="max-width: 540px;">
+                    <div class="card mb-3 shadow" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
                                 <img class="img-fluid" src="./images/icon/card-icon3.png" alt="...">
@@ -100,8 +101,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Contact Our Seller</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to
-                                        additional content. This content is a little bit longer.</p>
+                                        lead-in to additional content. This content is a little bit longer.</p>
                                 </div>
                             </div>
                         </div>
@@ -115,73 +115,106 @@
             </div>
         </section>
         <!-- Casual Bag Item -->
-        <section class="container">
+        <section class="container m-5">
             <h2>CASUAL BACKPACKS</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 rounded shadow">
                         <img src="./images/nike-bag.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike Sportswear Hayward</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <h4>$200</h4>
+                                <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 rounded shadow">
                         <img src="./images/school-bag1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">School backpack</h5>
-                            <p class="card-text">This is a short card.</p>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between">
+                                <h4>$200</h4>
+                                <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100 rounded shadow">
                         <img src="./images/school-bag3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CityLite Security Backpack</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to additional content.</p>
+                            <div class="d-flex justify-content-between">
+                                <h4>$200</h4>
+                                <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                        aria-hidden="true"></i>BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Travel backpack -->
-        <section class="container">
+        <section class="container m-5">
             <section class="container">
                 <h2>TRAVEL BACKPACKS</h2>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100 rounded shadow">
                             <img src="./images/sports-bag1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Travel Sport</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in
                                     to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <h4>$200</h4>
+                                    <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                            aria-hidden="true"></i>BUY NOW</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100  rounded shadow">
                             <img src="./images/sports-bag2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Jack Wolfskin West Highland</h5>
-                                <p class="card-text">This is a short card.</p>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between">
+                                    <h4>$200</h4>
+                                    <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                            aria-hidden="true"></i>BUY NOW</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
+                        <div class="card h-100 rounded shadow">
                             <img src="./images/sports-bag3.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Hiking Trekking Bag Camping</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural
                                     lead-in
                                     to additional content.</p>
+                                <div class="d-flex justify-content-between">
+                                    <h4>$200</h4>
+                                    <button class="btn btn-warning"><i class="fa fa-shopping-cart"
+                                            aria-hidden="true"></i>BUY NOW</button>
+                                </div>
+
                             </div>
                         </div>
                     </div>
